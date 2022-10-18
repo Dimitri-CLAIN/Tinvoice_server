@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_item_items",
+  "info": {
+    "displayName": "Items",
+    "icon": "bars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "quantity": {
+      "type": "integer",
+      "default": 1,
+      "required": true,
+      "min": 1
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "hour",
+        "day",
+        "unit"
+      ],
+      "default": "unit",
+      "required": true
+    },
+    "price_ht": {
+      "type": "float",
+      "default": 0,
+      "required": true,
+      "min": 0
+    },
+    "tax": {
+      "type": "float",
+      "default": 89,
+      "required": true,
+      "min": 0
+    }
+  }
+}

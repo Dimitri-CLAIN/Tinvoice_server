@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "documents",
+  "info": {
+    "singularName": "document",
+    "pluralName": "documents",
+    "displayName": "Document",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "invoice",
+        "quote"
+      ],
+      "default": "quote",
+      "required": true
+    },
+    "order_number": {
+      "type": "string",
+      "required": false
+    },
+    "is_paid": {
+      "type": "boolean",
+      "default": false,
+      "required": false
+    },
+    "items": {
+      "displayName": "Items",
+      "type": "component",
+      "repeatable": true,
+      "component": "item.items"
+    },
+    "release_date": {
+      "type": "date",
+      "required": true
+    },
+    "payment_method": {
+      "type": "enumeration",
+      "enum": [
+        "transfer",
+        "cash",
+        "cheque"
+      ],
+      "required": true
+    },
+    "terms_and_conditions": {
+      "type": "text",
+      "default": "terms",
+      "required": true
+    },
+    "customer": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::customer.customer",
+      "inversedBy": "documents"
+    }
+  }
+}

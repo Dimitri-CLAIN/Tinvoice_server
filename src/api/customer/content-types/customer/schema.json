@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "customers",
+  "info": {
+    "singularName": "customer",
+    "pluralName": "customers",
+    "displayName": "Customer",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "username": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "text",
+      "required": true
+    },
+    "phone_number": {
+      "type": "biginteger",
+      "required": false
+    },
+    "email": {
+      "type": "email",
+      "required": false
+    },
+    "siret": {
+      "type": "biginteger"
+    },
+    "contact_id": {
+      "type": "string",
+      "unique": true
+    },
+    "customer_type": {
+      "type": "enumeration",
+      "enum": [
+        "human",
+        "company"
+      ],
+      "default": "human",
+      "required": true
+    },
+    "documents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::document.document",
+      "mappedBy": "customer"
+    }
+  }
+}
