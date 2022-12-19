@@ -4,7 +4,7 @@
   "info": {
     "singularName": "customer",
     "pluralName": "customers",
-    "displayName": "Customer",
+    "displayName": "Contact",
     "description": ""
   },
   "options": {
@@ -35,10 +35,6 @@
     "siret": {
       "type": "biginteger"
     },
-    "contact_id": {
-      "type": "string",
-      "unique": true
-    },
     "customer_type": {
       "type": "enumeration",
       "enum": [
@@ -53,6 +49,12 @@
       "relation": "oneToMany",
       "target": "api::document.document",
       "mappedBy": "customer"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "contacts"
     }
   }
 }
