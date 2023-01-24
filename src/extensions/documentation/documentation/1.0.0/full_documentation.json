@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-12-14T13:20:36.764Z"
+    "x-generation-date": "2023-01-24T11:32:22.220Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -129,7 +129,8 @@
                 "type": "string",
                 "enum": [
                   "human",
-                  "company"
+                  "company",
+                  "user_contacts"
                 ]
               },
               "documents": {
@@ -156,6 +157,9 @@
                   }
                 ],
                 "example": "string or id"
+              },
+              "ts_id": {
+                "type": "string"
               }
             }
           }
@@ -197,7 +201,8 @@
                 "type": "string",
                 "enum": [
                   "human",
-                  "company"
+                  "company",
+                  "user_contacts"
                 ]
               },
               "documents": {
@@ -317,7 +322,8 @@
                                           "type": "string",
                                           "enum": [
                                             "human",
-                                            "company"
+                                            "company",
+                                            "user_contacts"
                                           ]
                                         },
                                         "documents": {
@@ -865,6 +871,9 @@
                                             }
                                           }
                                         },
+                                        "ts_id": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -995,6 +1004,9 @@
                     }
                   }
                 }
+              },
+              "ts_id": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1078,7 +1090,8 @@
                 "type": "string",
                 "enum": [
                   "human",
-                  "company"
+                  "company",
+                  "user_contacts"
                 ]
               },
               "documents": {
@@ -1198,7 +1211,8 @@
                                           "type": "string",
                                           "enum": [
                                             "human",
-                                            "company"
+                                            "company",
+                                            "user_contacts"
                                           ]
                                         },
                                         "documents": {
@@ -1746,6 +1760,9 @@
                                             }
                                           }
                                         },
+                                        "ts_id": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -1876,6 +1893,9 @@
                     }
                   }
                 }
+              },
+              "ts_id": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1992,7 +2012,8 @@
                 "type": "string",
                 "enum": [
                   "human",
-                  "company"
+                  "company",
+                  "user_contacts"
                 ]
               },
               "documents": {
@@ -2112,7 +2133,8 @@
                                           "type": "string",
                                           "enum": [
                                             "human",
-                                            "company"
+                                            "company",
+                                            "user_contacts"
                                           ]
                                         },
                                         "documents": {
@@ -2660,6 +2682,9 @@
                                             }
                                           }
                                         },
+                                        "ts_id": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2790,6 +2815,9 @@
                     }
                   }
                 }
+              },
+              "ts_id": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -2873,7 +2901,8 @@
                 "type": "string",
                 "enum": [
                   "human",
-                  "company"
+                  "company",
+                  "user_contacts"
                 ]
               },
               "documents": {
@@ -2993,7 +3022,8 @@
                                           "type": "string",
                                           "enum": [
                                             "human",
-                                            "company"
+                                            "company",
+                                            "user_contacts"
                                           ]
                                         },
                                         "documents": {
@@ -3541,6 +3571,9 @@
                                             }
                                           }
                                         },
+                                        "ts_id": {
+                                          "type": "string"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -3671,6 +3704,9 @@
                     }
                   }
                 }
+              },
+              "ts_id": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -3892,7 +3928,8 @@
                             "type": "string",
                             "enum": [
                               "human",
-                              "company"
+                              "company",
+                              "user_contacts"
                             ]
                           },
                           "documents": {
@@ -4580,6 +4617,9 @@
                                 }
                               }
                             }
+                          },
+                          "ts_id": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -4777,7 +4817,8 @@
                             "type": "string",
                             "enum": [
                               "human",
-                              "company"
+                              "company",
+                              "user_contacts"
                             ]
                           },
                           "documents": {
@@ -5465,6 +5506,9 @@
                                 }
                               }
                             }
+                          },
+                          "ts_id": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -5695,7 +5739,8 @@
                             "type": "string",
                             "enum": [
                               "human",
-                              "company"
+                              "company",
+                              "user_contacts"
                             ]
                           },
                           "documents": {
@@ -6383,6 +6428,9 @@
                                 }
                               }
                             }
+                          },
+                          "ts_id": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -6580,7 +6628,8 @@
                             "type": "string",
                             "enum": [
                               "human",
-                              "company"
+                              "company",
+                              "user_contacts"
                             ]
                           },
                           "documents": {
@@ -7268,6 +7317,9 @@
                                 }
                               }
                             }
+                          },
+                          "ts_id": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -14342,7 +14394,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -14522,6 +14575,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -15176,7 +15232,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -15356,6 +15413,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -16043,7 +16103,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -16223,6 +16284,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -16877,7 +16941,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -17057,6 +17122,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -17483,7 +17551,8 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "human",
-                                                                        "company"
+                                                                        "company",
+                                                                        "user_contacts"
                                                                       ]
                                                                     },
                                                                     "documents": {
@@ -17914,6 +17983,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "ts_id": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -18346,7 +18418,8 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "human",
-                                                                        "company"
+                                                                        "company",
+                                                                        "user_contacts"
                                                                       ]
                                                                     },
                                                                     "documents": {
@@ -18777,6 +18850,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "ts_id": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -19242,7 +19318,8 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "human",
-                                                                        "company"
+                                                                        "company",
+                                                                        "user_contacts"
                                                                       ]
                                                                     },
                                                                     "documents": {
@@ -19673,6 +19750,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "ts_id": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -20105,7 +20185,8 @@
                                                                       "type": "string",
                                                                       "enum": [
                                                                         "human",
-                                                                        "company"
+                                                                        "company",
+                                                                        "user_contacts"
                                                                       ]
                                                                     },
                                                                     "documents": {
@@ -20536,6 +20617,9 @@
                                                                           }
                                                                         }
                                                                       }
+                                                                    },
+                                                                    "ts_id": {
+                                                                      "type": "string"
                                                                     },
                                                                     "createdAt": {
                                                                       "type": "string",
@@ -21357,7 +21441,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -21537,6 +21622,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -22230,7 +22318,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -22410,6 +22499,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -23136,7 +23228,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -23316,6 +23409,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -24009,7 +24105,8 @@
                                                         "type": "string",
                                                         "enum": [
                                                           "human",
-                                                          "company"
+                                                          "company",
+                                                          "user_contacts"
                                                         ]
                                                       },
                                                       "documents": {
@@ -24189,6 +24286,9 @@
                                                             }
                                                           }
                                                         }
+                                                      },
+                                                      "ts_id": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",

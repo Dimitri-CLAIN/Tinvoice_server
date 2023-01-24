@@ -39,7 +39,8 @@
       "type": "enumeration",
       "enum": [
         "human",
-        "company"
+        "company",
+        "user_contacts"
       ],
       "default": "human",
       "required": true
@@ -55,6 +56,9 @@
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
       "inversedBy": "contacts"
+    },
+    "ts_id": {
+      "type": "string"
     }
   }
 }
